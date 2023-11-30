@@ -1,0 +1,29 @@
+    .arrow {
+      display: none;
+      border: 2px solid orangered;
+      border-radius: 50%;
+      background: transparent;
+      color: #fff;
+      width: 2.5rem;
+      height: 2.5rem;
+      cursor: pointer;
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      z-index: 2;
+    
+  
+    .arrow:hover {
+      background: #6e4444; /* Change background color on hover */
+    }
+  
+    .prev {
+      left: -9px;
+      color: orangered;
+    }
+  
+    &:hover .arrow {
+      display: block;
+    }
+
+  }
